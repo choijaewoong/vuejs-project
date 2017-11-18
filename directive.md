@@ -9,7 +9,8 @@
 
 ### v-bind
  * 요소 객체의 속성들을 바인딩
- * ':'로 축약 가능 
+ * ':'로 축약 가능
+
     ```html
     <button :class="btn-primary">
     ```
@@ -30,6 +31,7 @@
 ### v-for
 * 반복 렌더링. 원본 데이터의 형식에 따라 사용법이 다름
 * index 또한 전달 가능
+
 ```html
 //items 배열인 경우
 <li v-for="(item, index) in items">
@@ -55,6 +57,7 @@
 ### v-on
 * 이벤트 처리 디렉티브
 * '@'로 축약 가능
+
 ```html
 <button @:click="balance += parseInt(amount)">예금</button>
 ```
