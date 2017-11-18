@@ -55,6 +55,9 @@
 ### v-on
 * 이벤트 처리 디렉티브
 * '@'로 축약 가능
+```html
+<button @:click="balance += parseInt(amount)">예금</button>
+```
 
 ### v-pre
 * HTML 요소에 대한 컴파일을 수행하지 않고 문자열 그대로 출력
