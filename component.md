@@ -61,3 +61,4 @@
 
 ### eventBus
 * 부모-자식 관계가 아닌 서로 형제 관계인 경우 이벤트 버스 객체를 이용해 정보를 전달한다. 
+    * [예제 14_event_bus](06_component/14_event_bus.html)
