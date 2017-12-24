@@ -98,7 +98,7 @@
             doneToggle: function(index) {
                 this.todolist[index].done = !this.todolist[index].done;
             },
-            deleteodo: function(index) {
+            deleteTodo: function(index) {
                 this.todolist.splice(index, 1);
             }
         }
